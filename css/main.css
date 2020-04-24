@@ -1,0 +1,52 @@
+body {
+  background-color: #5D5E60;  /*F8F8FF*/
+}
+
+html, body {
+  height: 100%;
+
+}
+
+#wrap {
+  min-height: 100%;
+  background-color: #BEBBBB;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom:110px; /* this needs to be bigger than footer height*/
+  padding-top: 75px;
+  background-color: #BEBBBB;
+}
+
+.footer {
+  position: relative;
+  margin-top: -110px; /* negative value of footer height */
+  height: 110px;
+  clear:both;
+  padding-top:20px;
+  background-color: #2C112A;
+}
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+
+.carousel-poster {
+  height: 225px;
+  border-width: thick;
+  border-color: #BEBBBB;
+  
+}
