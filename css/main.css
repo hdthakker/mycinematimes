@@ -54,3 +54,19 @@ html, body {
 .location-cards {
     background-color: #878787;
 }
+
+.showtimes {
+    padding: 4px;
+    margin: 4px;
+}
+
+.films {
+    background-color: #7B8580;
+}
+
+.poster {
+    float: left;
+    width: 200px;
+    margin: 0 0 15px 15px;
+    height: auto;
+}
